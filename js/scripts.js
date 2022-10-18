@@ -11,4 +11,12 @@ window.onload = function() {
     body.style.backgroundColor = 'white';
     body.style.color = 'brown';
   };
-}
+
+  let h1 = document.querySelector('h1');
+  h1.onmouseover = function() {
+    h1.style.backgroundColor = 'yellow';
+  };
+  h1.onmouseout = function() {
+    h1.style.backgroundColor = 'yellow';
+  };
+};
